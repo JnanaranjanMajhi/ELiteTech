@@ -1,3 +1,4 @@
+# Task -1
 # Email Slicer
 
 ## Description
@@ -47,6 +48,92 @@ To use the script:
    - Domain
    - Domain Type
 6. After processing, you will be asked if you want to save the results to a file. Type yes to save the output to a file named email_slicer_output.txt, or no to discard it.
+
+
+# Task - 2
+# Acronym Creator
+
+The Acronym Creator is a simple Python program that generates acronyms from phrases. The program prompts the user to enter a phrase and, optionally, a separator for the acronym. It removes punctuation, splits the phrase into words, and generates the acronym by taking the first letter of each word.
+
+## Features
+
+- **Generate Acronym**: Converts any phrase into an acronym by extracting the first letter of each word.
+- **Custom Separator**: Allows users to specify a separator between acronym letters (e.g., `-` or `.`).
+- **Input Validation**: Handles empty or invalid input gracefully.
+- **Exit Option**: Type `quit` to exit the program.
+
+## Installation
+
+No installation is required to use this program, as it is a standalone Python script. Ensure that you have Python 3.x installed on your system.
+
+## Usage
+
+1. Clone the repository or download the script.
+2. Run the script using Python:
+
+   ```bash
+   python acronym_creator.py
+   ```
+3. The program will prompt you to enter a phrase. You can also provide an optional separator for the acronym letters.
+4. Enter quit to exit the program.
+   ```bash
+   Enter a phrase to create an acronym (or 'quit' to exit): Random Access Memory
+   Enter a separator (or press Enter to skip): -
+   The acronym is: R-A-M
+   Enter a phrase to create an acronym (or 'quit' to exit): Central Processing Unit
+   Enter a separator (or press Enter to skip):
+   The acronym is: CPU
+   ```
+
+# Task - 3
+# BMI Calculator
+
+This is a simple BMI (Body Mass Index) Calculator GUI application built using Python's Tkinter library. The program allows users to input their weight (in kilograms) and height (in meters) to calculate their BMI and interpret the result based on standard BMI categories.
+
+## Features
+
+- Input fields for weight and height.
+- BMI calculation based on the formula: `BMI = weight (kg) / height (m)^2`.
+- BMI interpretation, categorized as:
+  - Underweight: BMI < 18.5
+  - Normal weight: 18.5 <= BMI < 24.9
+  - Overweight: 25 <= BMI < 29.9
+  - Obesity: BMI >= 30
+- Error handling for invalid inputs (non-numeric or zero/negative values).
+- Clear button to reset the input fields and results.
+
+## Requirements
+
+- Python 3.x
+- Tkinter (comes pre-installed with Python)
+
+## Installation
+
+1. Ensure Python 3.x is installed on your machine. You can download it from [python.org](https://www.python.org/).
+2. Tkinter is bundled with Python, so you don't need to install it separately.
+3. Download or clone this repository.
+
+## Usage
+
+1. Run the Python script (`bmi_calculator.py`).
+2. Enter your weight (in kilograms) and height (in meters) into the input fields.
+3. Click on "Calculate BMI" to compute your BMI and see the result.
+4. If you'd like to reset the fields, click on the "Clear" button.
+
+## Error Handling
+
+- If non-numeric values are entered, an error message will appear asking for numerical values.
+- If weight or height is entered as zero or negative, an error message will prompt for valid positive values.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgements
+
+- Tkinter library for creating the graphical user interface.
+- BMI categories as per the World Health Organization (WHO) guidelines.
+
 
 ## License
 
