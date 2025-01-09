@@ -125,10 +125,6 @@ This is a simple BMI (Body Mass Index) Calculator GUI application built using Py
 - If non-numeric values are entered, an error message will appear asking for numerical values.
 - If weight or height is entered as zero or negative, an error message will prompt for valid positive values.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## Acknowledgements
 
 - Tkinter library for creating the graphical user interface.
